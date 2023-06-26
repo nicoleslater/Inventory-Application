@@ -1,2 +1,2 @@
-# Inventory-Application-
+# Inventory-Application
 Inventory Project 
