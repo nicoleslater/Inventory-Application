@@ -2,4 +2,5 @@
 
 Inventory Project 
 
-I would like this inventory to have 
+I would like this inventory to have a music catalog.
+
