@@ -7,8 +7,12 @@
 body {
     background-color: aqua;
     background: linear-gradient(blueviolet,rgb(82, 5, 154));
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 
