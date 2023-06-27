@@ -1,5 +1,18 @@
-.header {
-    font-family:Cambria;
-    font-style: italic;
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: aqua;
+    background: linear-gradient(blueviolet,rgb(82, 5, 154));
+    
+}
+
+
+
+
+
+
+
