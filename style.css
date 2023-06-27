@@ -44,6 +44,25 @@ input {
     padding: 10px;
 }
 
+#book-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    background: white;
+    color: black;
+}
+
+#book-list > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
 
 
 
