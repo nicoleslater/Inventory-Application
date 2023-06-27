@@ -25,9 +25,6 @@ btn.addEventListener('click', function(e){
         newRow.appendChild(newPrice)
 
         bookList.appendChild(newRow);
-
-
-
     }
 
 });
