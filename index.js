@@ -3,7 +3,7 @@ const author = document.getElementById('author')
 const price = document.getElementById('price')
 const inStock = document.getElementById('InStock')
 const bookList = document.getElementById('book-list')
-const year = document.getElementById('published-year')
+const year = document.getElementById('year')
 const btn = document.querySelector('.btn')
 const removeBook = document.createElement('button')
 
