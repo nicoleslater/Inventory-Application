@@ -12,6 +12,7 @@ btn.addEventListener('click', function(e){
         alert("Fill The Form Please");
     } else {
         const newRow = document.createElement('section')
+        
         const newTitle = document.createElement('div')
         newTitle.innerHTML = title.value
         newRow.appendChild(newTitle);
