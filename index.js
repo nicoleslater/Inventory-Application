@@ -9,7 +9,7 @@ btn.addEventListener('click', function(e){
     e.preventDefault()
 
     if(title.value == "" && author.value == "" && price.value == ""){
-        alert("Fill The Form");
+        alert("Fill The Form Please");
     }
 
 })
