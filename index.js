@@ -10,7 +10,7 @@ const removeBook = document.createElement('button')
 btn.addEventListener('click', function(e){
     e.preventDefault()
 
-    if(title.value == "" && author.value == "" && price.value == ""){
+    if(title.value == "" && author.value == "" && price.value == "" && year.value == ""){
         alert("Fill The Form Please");
     } else {
         const newRow = document.createElement('section')
