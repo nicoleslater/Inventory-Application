@@ -47,6 +47,7 @@ console.log(price)
 console.log(inStock)
 console.log(bookList)
 console.log(btn)
+console.log(newYear)
 
 
 
