@@ -56,11 +56,23 @@ input {
 
 #book-list > section {
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    
+    justify-content: space-around;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
 }
+
+.btn {
+       background: deepskyblue;
+       border: none; 
+       color: whitesmoke;
+       margin-bottom: 20px;
+       padding: 10px 20px;
+       cursor: pointer;
+}
+
+
 
 
 
