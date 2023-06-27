@@ -3,6 +3,7 @@ const author = document.getElementById('author')
 const price = document.getElementById('price')
 const inStock = document.getElementById('InStock')
 const bookList = document.getElementById('book-list')
+const year = document.getElementById('published-year')
 const btn = document.querySelector('.btn')
 const removeBook = document.createElement('button')
 
@@ -30,6 +31,9 @@ btn.addEventListener('click', function(e){
         newPrice.innerHTML = price.value
         newRow.appendChild(newPrice)
 
+        const newYear = document.createElement('div')
+        newYear.innerHTML = year.value
+        newRow.appendChild(newYear)
        
 
         bookList.appendChild(newRow);
