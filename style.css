@@ -34,8 +34,17 @@ input {
 }
 
 .table {
-    
+    background: lightpink;
+    width: 100%;
 }
+
+.table-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
 
 
 
