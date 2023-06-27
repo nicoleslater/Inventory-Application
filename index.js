@@ -10,9 +10,14 @@ btn.addEventListener('click', function(e){
 
     if(title.value == "" && author.value == "" && price.value == ""){
         alert("Fill The Form Please");
+    } else {
+        const newRow = document.createElement('section')
+        const newTitle = document.createElement('div')
+        newTitle.innerHTML = title.value
+        newRow.appendChild(newTitle);
     }
 
-})
+});
 
 console.log(title)
 console.log(author)
