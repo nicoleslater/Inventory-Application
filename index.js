@@ -4,3 +4,5 @@ const price = document.getElementById('price')
 const inStock = document.getElementById('InStock')
 const bookList = document.getElementById('book-list')
 
+
+
