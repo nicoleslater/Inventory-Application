@@ -15,6 +15,19 @@ btn.addEventListener('click', function(e){
         const newTitle = document.createElement('div')
         newTitle.innerHTML = title.value
         newRow.appendChild(newTitle);
+
+        const newAuthor = document.createElement('div')
+        newAuthor.innerHTML = author.value
+        newRow.append(newAuthor)
+
+        const newPrice = document.createElement('div')
+        newPrice.innerHTML = price.value
+        newRow.appendChild(newPrice)
+
+        bookList.appendChild(newRow);
+
+
+
     }
 
 });
