@@ -16,6 +16,10 @@ btn.addEventListener('click', function(e){
         newTitle.innerHTML = title.value
         newRow.appendChild(newTitle);
 
+        const newInStock = document.createElement('div')
+        newInStock.innerHTML = InStock.value
+        newRow.appendChild(newInStock);
+
         const newAuthor = document.createElement('div')
         newAuthor.innerHTML = author.value
         newRow.append(newAuthor)
