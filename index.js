@@ -4,6 +4,7 @@ const price = document.getElementById('price')
 const inStock = document.getElementById('InStock')
 const bookList = document.getElementById('book-list')
 const btn = document.querySelector('.btn')
+const removeBook = document.createElement('button')
 
 btn.addEventListener('click', function(e){
     e.preventDefault()
@@ -12,7 +13,7 @@ btn.addEventListener('click', function(e){
         alert("Fill The Form Please");
     } else {
         const newRow = document.createElement('section')
-        
+
         const newTitle = document.createElement('div')
         newTitle.innerHTML = title.value
         newRow.appendChild(newTitle);
@@ -28,6 +29,8 @@ btn.addEventListener('click', function(e){
         const newPrice = document.createElement('div')
         newPrice.innerHTML = price.value
         newRow.appendChild(newPrice)
+
+       
 
         bookList.appendChild(newRow);
     }
