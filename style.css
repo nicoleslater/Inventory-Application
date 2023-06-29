@@ -49,10 +49,10 @@ input {
     width: 100%;
     padding: 10px;
     margin-top: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     outline: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .table {
@@ -93,8 +93,6 @@ input {
        padding: 10px 20px;
        cursor: pointer;
 }
-
-
 
 
 
