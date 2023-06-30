@@ -43,6 +43,7 @@ body {
     padding: 20px;
     color: whitesmoke;
     position: relative;
+    column-count: 2;
 }
 
 input {
@@ -98,6 +99,13 @@ input {
 img {
     height: 100px;
     border: 0cap;
+}
+
+.col2 {
+    padding: 50px;
+    float: left;
+    margin: 10px;
+    
 }
 
 
