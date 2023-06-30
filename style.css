@@ -95,7 +95,10 @@ input {
 }
 
 
-
+img {
+    height: 100px;
+    border: 0cap;
+}
 
 
 
