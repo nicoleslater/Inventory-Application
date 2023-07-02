@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.main{
+    padding: 20px;
+    font-size: 18px;
+}
+
 .header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: whitesmoke;
