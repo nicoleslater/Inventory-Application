@@ -10,12 +10,13 @@
 
 .column {
     float: left;
-    width: 50%;
+    width: 33.33%;
+    padding: 5px;
 }
 
 .row:after {
     content:"";
-    display: flex;
+    display: table;
     clear: both;
 }
 
@@ -43,7 +44,7 @@ body {
     padding: 20px;
     color: whitesmoke;
     position: relative;
-    column-count: 2;
+    column-count: 3;
 }
 
 input {
@@ -96,9 +97,10 @@ input {
 }
 
 
-.img {
+img {
    
-border-radius: 50%;
+border-radius: 8px;
+height: 200px;
 
 
 }
