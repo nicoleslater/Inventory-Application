@@ -2,5 +2,6 @@
 
 Inventory Project 
 
-I would like this inventory to have a book inventory
+I would like this inventory to add, remove and reset information on books. 
+
 
